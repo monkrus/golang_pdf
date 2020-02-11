@@ -21,8 +21,6 @@ func main() {
 
 	pdf.SetFont("times", "", 16)
 	pdf.MoveTo(0, lineHt*2)
-	pdf.MultiCell(0, lineHt*1.5, "some text")
-
 
 
 	err := pdf.OutputFileAndClose("sergei.pdf")
